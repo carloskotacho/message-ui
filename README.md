@@ -45,6 +45,15 @@ $ ng serve
 
 ## Contributing
 
+[![0](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/0)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/0)
+[![1](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/1)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/1)
+[![2](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/2)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/2)
+[![3](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/3)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/3)
+[![4](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/4)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/4)
+[![5](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/5)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/5)
+[![6](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/6)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/6)
+[![7](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/7)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/7)
+
 ## License
 
 Message - UI is under the MIT license. See the [LICENSE](https://github.com/carloskotacho/message-ui/blob/master/LICENSE) for more information.
