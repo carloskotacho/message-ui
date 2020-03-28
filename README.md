@@ -1,27 +1,50 @@
-# MessageUi
+# Message - UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+<a href="https://github.com/carloskotacho/message-ui/blob/master/LICENSE">
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=informational" height="21"/>
+</a>
+<a href="https://david-dm.org/carloskotacho/message-ui" title="dependencies status">
+  <img src="https://david-dm.org/carloskotacho/crypto-ui/status.svg" height="21"/>
+</a>
+<a href="https://github.com/carloskotacho/message-ui/releases">
+  <img src="https://img.shields.io/github/v/release/carloskotacho/crypto-ui?colorB=58839b" height="21">    
+</a>
 
-## Development server
+## Objective
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Consuming external API [message-api](https://github.com/carloskotacho/message-api)
 
-## Code scaffolding
+## Deploy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Releases
+
+- [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4
+- [Node.js](https://nodejs.org/en/) version 10.16.0
+
+## Showcase
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+# Clone this repository
+$ git clone https://github.com/carloskotacho/message-ui.git
 
-## Running unit tests
+# Go into the repository
+$ cd message-ui
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Build
+$ npm install
 
-## Running end-to-end tests
+# Run the app
+$ ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Usage
 
-## Further help
+## Libs
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contributing
+
+## License
+
+Message - UI is under the MIT license. See the [LICENSE](https://github.com/carloskotacho/message-ui/blob/master/LICENSE) for more information.
