@@ -23,6 +23,8 @@ Consuming external API [message-api](https://github.com/carloskotacho/message-ap
 
 ## Showcase
 
+![ERD_of_Message](https://user-images.githubusercontent.com/22691244/77832001-8a7c3500-7111-11ea-9757-ece581adda2e.png)
+
 ## Build
 
 ```
