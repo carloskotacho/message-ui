@@ -53,8 +53,8 @@ $ ng serve
 [![3](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/3)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/3)
 [![4](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/4)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/4)
 [![5](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/5)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/5)
-[![6](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/6)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/6)
-[![7](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/7)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/7)
+[![6](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/6)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/6
+)[![7](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/7)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/7)
 
 ## License
 
