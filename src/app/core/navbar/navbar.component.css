@@ -7,6 +7,16 @@
   color: #5E6C84;
 }
 
+.navbar-member{
+  float: right;
+  text-decoration: none;
+  color: #5E6C84;
+}
+
+.navbar-member:hover{
+  color: #4ECCA3;
+}
+
 .navbar-menu{
   position: fixed;
   top: 0;
