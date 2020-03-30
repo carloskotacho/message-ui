@@ -12,6 +12,7 @@ export class MessageRegisterComponent implements OnInit {
 
   constructor() {
     this.categories = [
+      { label: 'Categoria', value: null },
       { label: 'Reclamação', value: null },
       { label: 'Sugestão', value: null },
       { label: 'Problema', value: null },

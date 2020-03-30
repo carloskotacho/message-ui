@@ -2,14 +2,14 @@
     text-align: center;
     font: 12px "helvetica neue", Helvetica, Arial, sans-serif;
     letter-spacing: 0.05em;
-    color: #485059;
-    border-top: 1px solid #485059;
+    color: #CCCFD4;
+    border-top: 1px solid #CCCFD4;
     padding-top: 1.5em;
     display: block;
   }
 
   .copy a{
-    color: #485059;
+    color: #CCCFD4;
     margin-left: .5em;
   }
 
