@@ -26,3 +26,18 @@ label{
     margin: 0 auto;
   }
 }
+
+body #button-message-photo .ui-button{
+  background-color: #0079BF;
+  border: 1px solid #0079BF;
+}
+
+body .ui-button{
+  background-color: #4ECCA3;
+  border: 1px solid #4ECCA3;
+}
+
+body .ui-button:enabled:hover{
+  background-color: #5E6C84;
+  border: 1px solid #5E6C84;
+}

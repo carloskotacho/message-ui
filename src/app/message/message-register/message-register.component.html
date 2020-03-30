@@ -1,0 +1,39 @@
+<div class="container" style="max-width: 400px; margin: auto">
+
+  <div class="box-message">
+    <div class="box-message-title">Enviar sua mensagem</div>
+    <form class="box-message-content">
+      <div class="ui-g ui-fluid">
+
+        <div class="ui-g-12">
+          <input type="text" pInputText placeholder="Nome" />
+        </div>
+
+        <div class="ui-g-12">
+          <input type="text" pInputText placeholder="E-mail" />
+        </div>
+
+        <div class="ui-g-12">
+          <p-dropdown [options]="categories" placeholder="Categoria"></p-dropdown>
+        </div>
+
+        <div class="ui-g-12">
+          <textarea pInputTextarea [rows]="3" [cols]="30" placeholder="Escreva aqui sua mensagem..." autoResize="autoResize"></textarea>
+        </div>
+
+        <div class="ui-g-12">
+          <p-fileUpload id="button-message-photo" mode="basic" name="demo[]" url="" accept="image/*" maxFileSize="1000000" auto="true" chooseLabel="Foto"></p-fileUpload>
+        </div>
+
+        <div class="ui-g-12">
+          <p class="description">Ao enviar, você confirma que leu e aceitou nossos <a href="javascript:;" style="color:#0079BF;">Termos de serviços</a></p>
+        </div>
+
+        <div class="ui-g-12">
+          <button pButton label="Enviar" type="submit"></button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
