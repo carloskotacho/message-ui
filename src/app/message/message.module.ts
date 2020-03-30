@@ -6,8 +6,10 @@ import { DropdownModule } from 'primeng/dropdown';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { FileUploadModule } from 'primeng/fileupload';
 import { ButtonModule } from 'primeng/button';
+import { TabViewModule } from 'primeng/tabview';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
+import { MessageSearchComponent } from './message-search/message-search.component';
 
 @NgModule({
   imports: [
@@ -17,13 +19,16 @@ import { MessageRegisterComponent } from './message-register/message-register.co
     DropdownModule,
     InputTextareaModule,
     FileUploadModule,
-    ButtonModule
+    ButtonModule,
+    TabViewModule
   ],
   declarations: [
-    MessageRegisterComponent
+    MessageRegisterComponent,
+    MessageSearchComponent
   ],
   exports: [
-    MessageRegisterComponent
+    MessageRegisterComponent,
+    MessageSearchComponent
   ]
 })
 export class MessageModule { }
