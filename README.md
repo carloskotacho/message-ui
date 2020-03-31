@@ -45,6 +45,9 @@ $ ng serve
 
 ## Libs
 
+- [Avatars Initials Sprites](https://www.npmjs.com/package/@dicebear/avatars-initials-sprites)
+- [PrimeNG - v7](https://www.primefaces.org/primeng-7.1.3/#/)
+
 ## Contributing
 
 [![0](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/images/0)](https://sourcerer.io/fame/carloskotacho/carloskotacho/message-ui/links/0)
