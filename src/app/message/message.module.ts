@@ -8,7 +8,6 @@ import { FileUploadModule } from 'primeng/fileupload';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
-import { ScrollPanelModule } from 'primeng/scrollpanel';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
@@ -23,8 +22,7 @@ import { MessageSearchComponent } from './message-search/message-search.componen
     FileUploadModule,
     ButtonModule,
     CardModule,
-    DataViewModule,
-    ScrollPanelModule
+    DataViewModule
   ],
   declarations: [
     MessageRegisterComponent,

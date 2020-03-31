@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-message-search',
@@ -7,11 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessageSearchComponent implements OnInit {
 
+  items: MenuItem[];
   messages = [];
 
   constructor() { }
 
   ngOnInit() {
+
     this.messages = [
       { name: 'Katherine May', email: 'katherine@hotmail.com', category: 'Sugestão' },
       { name: 'Brandon Williams', email: 'brandonw@hotmail.com', category: 'Reclamação' },
@@ -22,6 +25,7 @@ export class MessageSearchComponent implements OnInit {
       { name: 'Olisha Farmer', email: 'olishaf@hotmail.com', category: 'Reclamação' },
       { name: 'Tokunaga Yae', email: 'tokunaga@hotmail.com', category: 'Outro' },
     ];
+
   }
 
 }
