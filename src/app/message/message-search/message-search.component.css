@@ -25,24 +25,25 @@
 }
 
 /* Start - message list */
-.message-list-content ul{
-  list-style: none;
-}
 
 .message-list-name{
   color: #5E6C84;
   font-weight: bold;
   margin-bottom: .4em;
+  padding: 0;
+  margin-right: .8em;
 }
 
 .message-list-email{
   color: #CCCFD4;
   font-weight: normal;
-  margin-left: .8em;
+  padding: 0;
 }
 
 .message-list-category{
   color: #5E6C84;
+  font-weight: normal;
+  padding: 0;
 }
 
 /* End - message list */

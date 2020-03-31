@@ -7,6 +7,8 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import { FileUploadModule } from 'primeng/fileupload';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
+import { DataViewModule } from 'primeng/dataview';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
@@ -20,7 +22,9 @@ import { MessageSearchComponent } from './message-search/message-search.componen
     InputTextareaModule,
     FileUploadModule,
     ButtonModule,
-    CardModule
+    CardModule,
+    DataViewModule,
+    ScrollPanelModule
   ],
   declarations: [
     MessageRegisterComponent,

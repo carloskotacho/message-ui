@@ -17,34 +17,61 @@
             <button class="button-search" pButton label="Pesquisar" type="submit"></button>
           </div>
 
-          <div class="ui-g-12 ui-md-3 ui-lg-3">
-            <button class="button-all" pButton label="Todos" type="submit"></button>
-          </div>
+        </div>
 
-          <div class="ui-g-12 ui-md-3 ui-lg-3">
-            <button class="button-open" pButton label="Aberto" type="submit"></button>
-          </div>
-
-          <div class="ui-g-12 ui-md-3 ui-lg-3">
-            <button class="button-pending" pButton label="Pendente" type="submit"></button>
-          </div>
-
-          <div class="ui-g-12 ui-md-3 ui-lg-3">
-            <button class="button-closed" pButton label="Fechado" type="submit"></button>
-          </div>
-
+        <div class="ui-g">
           <div class="ui-g-12 ui-md-12 ui-lg-12">
-            <div class="message-list-content">
-              <ul>
-                <li>
-                  <div class="message-list-name">Katherine May<span class="message-list-email">(katherine@hotmail.com)</span></div>
-                  <div class="message-list-category">Reclamação</div>
-                </li>
-              </ul>
+            <p-dataView [value]="messages" [paginator]="true" [rows]="10" [loading]="loading">
+              <p-header>
+                <div class="ui-g">
+                  <div class="ui-g-12 ui-md-2 ui-g-2">
+                    <button class="button-all" pButton label="Todos" type="submit"></button>
+                  </div>
+                  <div class="ui-g-12 ui-md-2 ui-g-2">
+                    <button class="button-open" pButton label="Aberto" type="submit"></button>
+                  </div>
+                  <div class="ui-g-12 ui-md-2 ui-g-2">
+                    <button class="button-pending" pButton label="Pendente" type="submit"></button>
+                  </div>
+                  <div class="ui-g-12 ui-md-2 ui-g-2">
+                    <button class="button-closed" pButton label="Fechado" type="submit"></button>
+                  </div>
+                </div>
+              </p-header>
+
+
+              <ng-template pTemplate="listItem" let-messages>
+                <div class="ui-g">
+                  <div class="ui-sm-12 message-list-name">{{ messages.name }}</div>
+                  <div class="ui-sm-12 message-list-email">({{ messages.email }})</div>
+                  <br />
+                  <div class="ui-sm-12 ui-g-12 message-list-category">{{ messages.category }}</div>
+                </div>
+              </ng-template>
+
+            </p-dataView>
+          </div>
+        </div>
+        <!--
+          <div class="ui-g">
+            <div class="ui-g-12 ui-md-12 ui-lg-12">
+              <p-virtualScroller [value]="messages" scrollHeight="500px" [itemSize]="50">
+                <ng-template pTemplate="messages" let-messages>
+                  <div class="message-content">
+                    {{ messages.name }} ({{ messages.email }})
+                    <br />
+                    {{ messages.category }}
+                  </div>
+                </ng-template>
+              </p-virtualScroller>
             </div>
           </div>
 
-        </div>
+
+          <div class="message-list-name">{{ messages.name }}<span class="message-list-email">({{ messages.email }})</span></div>
+          <div class="message-list-category">{{ messages.category }}</div>
+        -->
+
       </p-card>
     </div>
   </div>
