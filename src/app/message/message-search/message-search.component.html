@@ -1,16 +1,51 @@
 <div class="container">
-  <p-tabView>
-    <p-tabPanel id="all" header="Todos">
-       Content 1
-    </p-tabPanel>
-    <p-tabPanel id="open" header="Aberto">
-        Content 2
-    </p-tabPanel>
-    <p-tabPanel id="pending" header="Pendente">
-        Content 3
-    </p-tabPanel>
-    <p-tabPanel id="closed" header="Fechado">
-        Content 4
-    </p-tabPanel>
-</p-tabView>
+
+  <div class="ui-g ui-fluid">
+    <div class="ui-g-12">
+      <p-card class="message-card" header="Mensagens">
+        <div class="ui-g">
+
+          <div class="ui-g-12">
+            <label>Filtro</label>
+          </div>
+
+          <div class="ui-g-12 ui-md-9 ui-lg-9">
+            <input type="text" pInputText placeholder="Nome remetente ou Categoria" />
+          </div>
+
+          <div class="ui-g-12 ui-md-3 ui-lg-3">
+            <button class="button-search" pButton label="Pesquisar" type="submit"></button>
+          </div>
+
+          <div class="ui-g-12 ui-md-3 ui-lg-3">
+            <button class="button-all" pButton label="Todos" type="submit"></button>
+          </div>
+
+          <div class="ui-g-12 ui-md-3 ui-lg-3">
+            <button class="button-open" pButton label="Aberto" type="submit"></button>
+          </div>
+
+          <div class="ui-g-12 ui-md-3 ui-lg-3">
+            <button class="button-pending" pButton label="Pendente" type="submit"></button>
+          </div>
+
+          <div class="ui-g-12 ui-md-3 ui-lg-3">
+            <button class="button-closed" pButton label="Fechado" type="submit"></button>
+          </div>
+
+          <div class="ui-g-12 ui-md-12 ui-lg-12">
+            <div class="message-list-content">
+              <ul>
+                <li>
+                  <div class="message-list-name">Katherine May<span class="message-list-email">(katherine@hotmail.com)</span></div>
+                  <div class="message-list-category">Reclamação</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </p-card>
+    </div>
+  </div>
 </div>

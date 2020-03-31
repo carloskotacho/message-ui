@@ -1,9 +1,48 @@
-/*
-#all{  }
+.button-search{
+  background-color: #5E81AC;
+  border: 1px solid #5E81AC;
+}
 
-#open{  }
+.button-all{
+  background-color: #ECEAEA;
+  border: 1px solid #ECEAEA;
+  color: #5E6C84;
+}
 
-#pending{  }
+.button-open{
+  background-color: #4ECCA3;
+  border: 1px solid #4ECCA3;
+}
 
-#closed{  }
-*/
+.button-pending{
+  background-color: #FFBA92;
+  border: 1px solid #FFBA92;
+}
+
+.button-closed{
+  background-color: #FF8080;
+  border: 1px solid #FF8080;
+}
+
+/* Start - message list */
+.message-list-content ul{
+  list-style: none;
+}
+
+.message-list-name{
+  color: #5E6C84;
+  font-weight: bold;
+  margin-bottom: .4em;
+}
+
+.message-list-email{
+  color: #CCCFD4;
+  font-weight: normal;
+  margin-left: .8em;
+}
+
+.message-list-category{
+  color: #5E6C84;
+}
+
+/* End - message list */

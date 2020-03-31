@@ -41,3 +41,8 @@ body .ui-button:enabled:hover{
   background-color: #5E6C84;
   border: 1px solid #5E6C84;
 }
+
+body .ui-card-body{
+  color: #5E6C84;
+  margin-top: 5em;
+}

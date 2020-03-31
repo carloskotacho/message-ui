@@ -6,7 +6,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { FileUploadModule } from 'primeng/fileupload';
 import { ButtonModule } from 'primeng/button';
-import { TabViewModule } from 'primeng/tabview';
+import { CardModule } from 'primeng/card';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
@@ -20,7 +20,7 @@ import { MessageSearchComponent } from './message-search/message-search.componen
     InputTextareaModule,
     FileUploadModule,
     ButtonModule,
-    TabViewModule
+    CardModule
   ],
   declarations: [
     MessageRegisterComponent,
