@@ -50,3 +50,7 @@ body .ui-card-body{
 .ui-dataview.ui-dataview-list>.ui-dataview-content>div.ui-g>div{
   padding: .5em;
 }
+
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active{
+  background-color: #5E6C84;
+}
