@@ -42,36 +42,36 @@
 
               <ng-template pTemplate="listItem" let-messages>
                 <div class="ui-g">
-                  <div class="ui-sm-12"><img src="https://avatars.dicebear.com/v2/initials/{{ messages.name }}.svg" width="50" alt="Avatar"></div>
-                  <div class="ui-sm-12 message-list-name">{{ messages.name }}</div>
-                  <div class="ui-sm-12 message-list-email">({{ messages.email }})</div>
-                  <br />
-                  <div class="ui-sm-12 ui-g-12 message-list-category">{{ messages.category }}</div>
+                  <div class="ui-g-12">
+                  <div class="member">
+                    <div class="ui-g-7 team-box">
+                      <div class="profile-image">
+                        <img src="https://avatars.dicebear.com/v2/initials/{{ messages.name }}.svg" alt="Avatar">
+                      </div>
+                      <div>
+                        <h2 class="team-member">{{ messages.name }}</h2>
+                        <div class="status" [ngClass]="{ 'status-open' :  messages.status  == 'open',
+                                                         'status-pending' :  messages.status == 'pending',
+                                                         'status-closed' :  messages.status == 'closed' }"></div>
+                        <span class="team-member-email">
+                          {{ messages.email }}
+                        </span>
+                      </div>
+                    </div>
+                    <div class="ui-g-5 ui-md-12 ui-lg-12 icons">
+                      <div class="icon icon-search"><i class="pi pi-search"></i></div>
+                      <div class="icon icon-edit"><i class="pi pi-pencil"></i></div>
+                      <div class="icon icon-delete"><i class="pi pi-trash"></i></div>
+                    </div>
+                  </div>
+                </div>
+
                 </div>
               </ng-template>
 
             </p-dataView>
           </div>
         </div>
-        <!--
-          <div class="ui-g">
-            <div class="ui-g-12 ui-md-12 ui-lg-12">
-              <p-virtualScroller [value]="messages" scrollHeight="500px" [itemSize]="50">
-                <ng-template pTemplate="messages" let-messages>
-                  <div class="message-content">
-                    {{ messages.name }} ({{ messages.email }})
-                    <br />
-                    {{ messages.category }}
-                  </div>
-                </ng-template>
-              </p-virtualScroller>
-            </div>
-          </div>
-
-
-          <div class="message-list-name">{{ messages.name }}<span class="message-list-email">({{ messages.email }})</span></div>
-          <div class="message-list-category">{{ messages.category }}</div>
-        -->
 
       </p-card>
     </div>
