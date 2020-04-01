@@ -10,7 +10,7 @@
           </div>
 
           <div class="ui-g-12 ui-md-9 ui-lg-9">
-            <input type="text" pInputText placeholder="Nome remetente ou Categoria" />
+            <input type="text" pInputText placeholder="Nome, email ou categoria" />
           </div>
 
           <div class="ui-g-12 ui-md-3 ui-lg-3">
@@ -52,7 +52,8 @@
                         <h2 class="team-member">{{ messages.name }}</h2>
                         <div class="status" [ngClass]="{ 'status-open' :  messages.status  == 'open',
                                                          'status-pending' :  messages.status == 'pending',
-                                                         'status-closed' :  messages.status == 'closed' }"></div>
+                                                         'status-closed' :  messages.status == 'closed' }"
+                                            pTooltip="Status mensagem" tooltipPosition="bottom"></div>
                         <span class="team-member-email">
                           {{ messages.email }}
                         </span>
