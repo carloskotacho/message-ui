@@ -73,14 +73,14 @@
   align-items: center;
 }
 
-.icon.icon-search,
+.icon.icon-view,
 .icon.icon-edit,
 .icon.icon-delete{
-  background-color: #bbbbbb;
+  background-color: #e0e0e0;
   color: #fff;
 }
 
-.icon.icon-search:hover,
+.icon.icon-view:hover,
 .icon.icon-edit:hover,
 .icon.icon-delete:hover{
   background-color: #5E6C84;
