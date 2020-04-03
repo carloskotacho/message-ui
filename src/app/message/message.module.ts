@@ -12,6 +12,7 @@ import { TooltipModule } from 'primeng/tooltip';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
+import { MessageViewComponent } from './message-view/message-view.component';
 
 @NgModule({
   imports: [
@@ -28,11 +29,13 @@ import { MessageSearchComponent } from './message-search/message-search.componen
   ],
   declarations: [
     MessageRegisterComponent,
-    MessageSearchComponent
+    MessageSearchComponent,
+    MessageViewComponent
   ],
   exports: [
     MessageRegisterComponent,
-    MessageSearchComponent
+    MessageSearchComponent,
+    MessageViewComponent
   ]
 })
 export class MessageModule { }
