@@ -9,6 +9,8 @@ import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
 import { TooltipModule } from 'primeng/tooltip';
+import { FieldsetModule } from 'primeng/fieldset';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
@@ -25,7 +27,9 @@ import { MessageViewComponent } from './message-view/message-view.component';
     ButtonModule,
     CardModule,
     DataViewModule,
-    TooltipModule
+    TooltipModule,
+    FieldsetModule,
+    ScrollPanelModule
   ],
   declarations: [
     MessageRegisterComponent,

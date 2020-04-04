@@ -28,13 +28,21 @@ label{
 }
 
 body #button-message-photo .ui-button{
-  background-color: #0079BF;
-  border: 1px solid #0079BF;
+  background-color: transparent;
+  border: 1px solid #5E81AC;
+  color: #5E81AC;
+}
+
+body #button-message-photo .ui-button:hover{
+  background-color: #5E6C84;
+  border: 1px solid #5E6C84;
+  color: #fff;
 }
 
 body .ui-button{
-  background-color: #4ECCA3;
-  border: 1px solid #4ECCA3;
+  background-color: transparent;
+  border: 1px solid #5E81AC;
+  color: #5E81AC;
 }
 
 body .ui-button:enabled:hover{
@@ -53,4 +61,90 @@ body .ui-card-body{
 
 body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active{
   background-color: #5E6C84;
+}
+
+/* Start - Message list */
+.member{
+  display: flex;
+  align-items: center;
+}
+
+.team-box{
+  display: flex;
+  align-items: center;
+}
+
+.profile-image{
+  margin-right: 10px;
+}
+
+.profile-image img{
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.team-member{
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.team-member-email{
+  font-size: 12px;
+  color: #9199a9;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  margin: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon.icon-view,
+.icon.icon-edit,
+.icon.icon-delete{
+  background-color: #e0e0e0;
+  color: #fff;
+}
+
+.icon.icon-view:hover,
+.icon.icon-edit:hover,
+.icon.icon-delete:hover{
+  background-color: #5E6C84;
+}
+
+.status{
+  margin-right: .3em;
+  vertical-align: middle;
+  height: .5em;
+  width: .5em;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status.status-open{ background-color: #4ECCA3; }
+.status.status-pending{ background-color: #FFBA92; }
+.status.status-closed{ background-color: #FF8080; }
+/* End - Message list */
+
+body .ui-fieldset{
+  border: 1px solid #9199a9;
+color: #9199a9;
+}
+
+body .ui-inputtext, body .ui-dropdown{
+  border: 1px solid #5E6C84;
+  color: #5E6C84;
 }
