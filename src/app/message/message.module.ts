@@ -15,6 +15,7 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
 import { MessageViewComponent } from './message-view/message-view.component';
+import { MessageEditComponent } from './message-edit/message-edit.component';
 
 @NgModule({
   imports: [
@@ -34,12 +35,14 @@ import { MessageViewComponent } from './message-view/message-view.component';
   declarations: [
     MessageRegisterComponent,
     MessageSearchComponent,
-    MessageViewComponent
+    MessageViewComponent,
+    MessageEditComponent
   ],
   exports: [
     MessageRegisterComponent,
     MessageSearchComponent,
-    MessageViewComponent
+    MessageViewComponent,
+    MessageEditComponent
   ]
 })
 export class MessageModule { }
