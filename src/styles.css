@@ -140,8 +140,8 @@ body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active{
 /* End - Message list */
 
 body .ui-fieldset{
-  border: 1px solid #9199a9;
-color: #9199a9;
+  border: none;
+  color: #9199a9;
 }
 
 body .ui-inputtext, body .ui-dropdown{

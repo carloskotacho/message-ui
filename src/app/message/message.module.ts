@@ -11,6 +11,7 @@ import { DataViewModule } from 'primeng/dataview';
 import { TooltipModule } from 'primeng/tooltip';
 import { FieldsetModule } from 'primeng/fieldset';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { RadioButtonModule } from 'primeng/radiobutton';
 
 import { MessageRegisterComponent } from './message-register/message-register.component';
 import { MessageSearchComponent } from './message-search/message-search.component';
@@ -30,7 +31,8 @@ import { MessageEditComponent } from './message-edit/message-edit.component';
     DataViewModule,
     TooltipModule,
     FieldsetModule,
-    ScrollPanelModule
+    ScrollPanelModule,
+    RadioButtonModule
   ],
   declarations: [
     MessageRegisterComponent,

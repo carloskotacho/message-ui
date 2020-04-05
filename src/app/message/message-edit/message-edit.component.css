@@ -1,0 +1,29 @@
+.view-message-text{
+  line-height: 1.6;
+}
+
+.view-hour{
+  font-size: 12px;
+  color: #9199a9;
+}
+
+.view-icons span{
+  float: right;
+  color: #9199a9;
+  margin: .3em;
+}
+
+.button-send{
+  background-color: #5E81AC;
+  border: 1px solid #5E81AC;
+  color: #fff;
+}
+
+.textarea-message-reply{
+  margin-top: 1em;
+  border: 1px solid #9EA6B5;
+}
+
+.span-button-send{
+  float: right;
+}
